@@ -23,4 +23,20 @@ Il est de bonne pratique de ne pas travailler sur la branche principale qui est 
 
         git push
 
-    ==> branche bien à faire
+    ==> branche bien à jour
+
+- une fois la branche *dev* terminé il faut la merger à la branche principale. Il faut d'abord se repositionner sur la branche principale *main* grâce à la commante:
+
+        git chekout main
+
+Puis lancer le merge grâce à la commande ;
+
+        git merge dev
+
+Et enfin faire un push:
+
+        git push
+
+
+
+
